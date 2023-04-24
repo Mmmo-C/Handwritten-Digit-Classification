@@ -113,9 +113,11 @@ accuracy_dt = accuracy_score(y_test, y_pred_dt)
 
 ### MNIST data analysis
 The first 4 principal components of the data set is plotted as below:
+
 ![principal plot](https://github.com/Mmmo-C/Handwritten-Digit-Classification/blob/main/results/modes.png)
 
 The singular value spectrum can be shown as:
+
 ![SVS](https://github.com/Mmmo-C/Handwritten-Digit-Classification/blob/main/results/SVS.png)
 
 The interpretation of U, Σ, and V matrices are:
@@ -127,6 +129,7 @@ Shape of V: (784, 784)
 ```
 
 The projection of mode 2, 3, and 5 onto 3D space is:
+
 ![projection](https://github.com/Mmmo-C/Handwritten-Digit-Classification/blob/main/results/4.png)
 
 ### Classification
